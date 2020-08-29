@@ -1,25 +1,25 @@
 def using_push(array, string)
-  colors = [ "orange", "blue", "red", "yellow" ]
-  colors.push("violet")
+  colors_in_the_rainbow = ["red", "orange", "yellow", "green", "blue", "indigo"]
+  colors_in_the_rainbow.push("violet")
 end
 
 def using_unshift(array, string)
-  colors = [ "orange", "blue", "red", "yellow" ]
-  colors.unshift("Staten Island")
+  bouroughs_in_nyc = ["Brooklyn", "Queens", "Manhattan", "Bronx"]
+  bouroughs_in_nyc.unshift("Staten Island")
 end
 
-def using_pop(continents = ["North America", "South America", "Europe", "Asia", "Africa", "Australia", "Antarctica"])
+def using_pop(continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"])
   continents.pop
 end
 
-def pop_with_args(small_dogs = ["poodle", "wolf pup", "daschund", "terrier"])
-  small_dogs.pop(2)
+def pop_with_args(dog_breeds = ["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"])
+  dog_breeds.pop(2)
 end
 
-def using_shift(small_dogs = ["Lagos", "wolf pup", "daschund", "terrier", "monkey", "raisin", "hitch", "copper"])
-  small_dogs.shift
+def using_shift(my_favorite_cities = ["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"])
+  my_favorite_cities.shift
 end
 
-def shift_with_args(small_dogs = ["Lagos", "wolf pup", "daschund", "terrier", "monkey", "raisin", "hitch", "copper"])
-  small_dogs.shift(2)
+def shift_with_args(ice_cream_brands = ["Blue Bell Creameries", "Ben & Jerry's", "Baskin Robbins", "Braum's", "Breyer's"])
+  ice_cream_brands.shift(2)
 end
